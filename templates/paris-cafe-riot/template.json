@@ -1,0 +1,25 @@
+{
+  "name": "Parisian Café During a Riot",
+  "aliases": [
+    "woman drinking coffee during riot",
+    "paris coffee riot",
+    "unbothered café woman",
+    "espresso during protest",
+    "french woman coffee riot police",
+    "calm amid chaos"
+  ],
+  "description": "A woman in sunglasses and a black coat sips an espresso at a Paris café terrace, completely unbothered. Behind her, riot police in helmets form a line, red smoke flares billow between Haussmann buildings, and fires burn behind metal barricades on the wet pavement.",
+  "usage": "Someone staying calm, comfortable or oblivious while everything around them falls apart. Usually captioned above as \"X while Y\", where X is the unbothered one and Y is the chaos.",
+  "tags": ["calm", "unbothered", "chaos", "riot", "protest", "coffee", "paris", "france", "reaction", "while"],
+  "image": "image.jpg",
+  "width": 720,
+  "height": 405,
+  "captionStrip": true,
+  "boxes": [],
+  "source": {
+    "url": "https://x.com/RetentionAdam/status/2115180279413494056",
+    "author": "@RetentionAdam",
+    "date": "2026-10-27",
+    "example": "Bootstrapped founders while OpenAI and Anthropic make it impossible to sell or take secondary."
+  }
+}
