@@ -1,0 +1,44 @@
+{
+  "name": "He Is Risen (TempleOS)",
+  "aliases": [
+    "he is risen",
+    "jesus is risen",
+    "happy easter templeos",
+    "templeos cross animation",
+    "easter",
+    "terry davis",
+    "terry a davis",
+    "templeos",
+    "king terry"
+  ],
+  "description": "A TempleOS animation on a cyan sky: a yellow cross grows to fill the screen, reading \"HE IS RISEN\", as white birds fly past. Music, no speech.",
+  "usage": "Easter, or anything that has come back from the dead: a project, a server, a friend who finally replied.",
+  "tags": [
+    "easter",
+    "jesus",
+    "risen",
+    "cross",
+    "comeback",
+    "animation",
+    "video",
+    "clip",
+    "terry",
+    "davis",
+    "templeos",
+    "holyc",
+    "programmer"
+  ],
+  "image": "image.jpg",
+  "width": 720,
+  "height": 540,
+  "video": "video.mp4",
+  "duration": 22.6,
+  "captionStrip": true,
+  "boxes": [],
+  "source": {
+    "url": "https://x.com/Davisanism/status/1913970963693121578",
+    "author": "@Davisanism",
+    "date": "2025-04-20",
+    "example": "Jesus is risen. Happy Easter."
+  }
+}

@@ -17,6 +17,9 @@ RAW = "https://raw.githubusercontent.com/alexisbcz/hypermeme-templates/main/temp
 
 REQUIRED = {"name": str, "aliases": list, "description": str, "usage": str, "tags": list,
             "image": str, "width": int, "height": int, "captionStrip": bool, "boxes": list, "source": dict}
+# A video template also has these. Its image is the poster: the frame shown in search and captioned on.
+VIDEO_FIELDS = {"video": str, "duration": (int, float)}
+VIDEO_LIMIT = 15 * 1024 * 1024
 BOX_FIELDS = {"x", "y", "width", "height", "rotation", "font", "color", "outline",
               "allCaps", "align", "verticalAlign", "shadow", "maxFontSize"}
 
@@ -62,6 +65,8 @@ def check(folder: Path) -> tuple[dict, list[str]]:
                 errors.append(f"width/height say {meta['width']}x{meta['height']}, image is {size[0]}x{size[1]}")
         except ValueError as e:
             errors.append(f"{meta['image']}: {e}")
+    if "video" in meta:
+        errors += check_video(folder, meta)
     for n, box in enumerate(meta["boxes"]):
         if unknown := set(box) - BOX_FIELDS:
             errors.append(f"boxes[{n}] has unknown fields {sorted(unknown)}")
@@ -71,6 +76,22 @@ def check(folder: Path) -> tuple[dict, list[str]]:
     return meta, errors
 
 
+def check_video(folder: Path, meta: dict) -> list[str]:
+    errors = [f"{key} should be a number" if key == "duration" else f"{key} should be a str"
+              for key, kind in VIDEO_FIELDS.items() if not isinstance(meta.get(key), kind)]
+    if errors:
+        return errors
+    video = folder / meta["video"]
+    if not video.is_file():
+        return [f"{meta['video']} is missing"]
+    data = video.read_bytes()
+    if video.suffix != ".mp4" or data[4:8] != b"ftyp":
+        errors.append(f"{meta['video']} should be an MP4")
+    if len(data) > VIDEO_LIMIT:
+        errors.append(f"{meta['video']} is {len(data) // 1024 // 1024} MB; keep videos under {VIDEO_LIMIT // 1024 // 1024} MB")
+    return errors
+
+
 def build() -> str:
     entries, failed = [], False
     for folder in sorted(p for p in TEMPLATES.iterdir() if p.is_dir()):
@@ -78,7 +99,10 @@ def build() -> str:
         for error in errors:
             print(f"{folder.name}: {error}", file=sys.stderr)
         failed |= bool(errors)
-        entries.append({"id": folder.name, **meta, "imageURL": f"{RAW}/{folder.name}/{meta.get('image')}"})
+        entry = {"id": folder.name, **meta, "imageURL": f"{RAW}/{folder.name}/{meta.get('image')}"}
+        if "video" in meta:
+            entry["videoURL"] = f"{RAW}/{folder.name}/{meta['video']}"
+        entries.append(entry)
     if failed:
         sys.exit(1)
     return json.dumps({"version": 1, "templates": entries}, indent=2, ensure_ascii=False) + "\n"

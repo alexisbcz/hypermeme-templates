@@ -1,0 +1,42 @@
+{
+  "name": "Visualising in the Mirror the Man I Want to Become (Terry Davis)",
+  "aliases": [
+    "visualising in the mirror the man i want to become",
+    "man in the mirror",
+    "terry davis dancing mirror",
+    "the man i want to become",
+    "terry davis",
+    "terry a davis",
+    "templeos",
+    "king terry"
+  ],
+  "description": "A painting of a man looking into a mirror, with a clip of Terry Davis dancing in a TempleOS t-shirt playing inside the mirror, captioned \"visualising in the mirror the man i want to become:\". Music, no speech.",
+  "usage": "Aspirations: the carefree, self-made, unbothered person you want to be.",
+  "tags": [
+    "mirror",
+    "dancing",
+    "goals",
+    "aspiration",
+    "self improvement",
+    "video",
+    "clip",
+    "terry",
+    "davis",
+    "templeos",
+    "holyc",
+    "programmer"
+  ],
+  "image": "image.jpg",
+  "width": 720,
+  "height": 692,
+  "video": "video.mp4",
+  "duration": 15.5,
+  "captionStrip": true,
+  "boxes": [],
+  "source": {
+    "url": "https://x.com/Davisanism/status/1780990114023285007",
+    "author": "@Davisanism",
+    "date": "2024-04-18",
+    "example": ""
+  }
+}

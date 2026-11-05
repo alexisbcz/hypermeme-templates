@@ -1,0 +1,44 @@
+{
+  "name": "Terry Davis Dancing to Stayin' Alive",
+  "aliases": [
+    "terry davis dancing",
+    "stayin alive",
+    "terry dancing at subway",
+    "terry davis dance",
+    "dancing in subway",
+    "terry davis",
+    "terry a davis",
+    "templeos",
+    "king terry"
+  ],
+  "description": "Terry Davis in a cap and blue jacket dancing alone in an empty Subway restaurant, set to \"Stayin' Alive\".",
+  "usage": "Pure joy, or surviving against the odds. Dancing like nobody's watching.",
+  "tags": [
+    "dancing",
+    "dance",
+    "subway",
+    "joy",
+    "happy",
+    "music",
+    "video",
+    "clip",
+    "terry",
+    "davis",
+    "templeos",
+    "holyc",
+    "programmer"
+  ],
+  "image": "image.jpg",
+  "width": 720,
+  "height": 540,
+  "video": "video.mp4",
+  "duration": 25.0,
+  "captionStrip": true,
+  "boxes": [],
+  "source": {
+    "url": "https://x.com/Davisanism/status/1806018367691649458",
+    "author": "@Davisanism",
+    "date": "2024-06-26",
+    "example": "Stayin’ Alive"
+  }
+}

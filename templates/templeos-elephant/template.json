@@ -1,0 +1,42 @@
+{
+  "name": "TempleOS Elephant",
+  "aliases": [
+    "terry davis elephant",
+    "i like elephants and god likes elephants",
+    "16 color pleasant to create",
+    "this is 16 color",
+    "god likes elephants",
+    "templeos elephant drawing",
+    "terry davis",
+    "terry a davis",
+    "templeos",
+    "king terry"
+  ],
+  "description": "Terry Davis's 16-color TempleOS drawing of a grey elephant standing in a yellow desert under a cyan sky, with a palm tree, grass and a stick, and the line \"This is 16 color, pleasant to create. It would be unpleasant to draw with 16,777,216 colors.\"",
+  "usage": "Simple beats complex: limits as a feature, low-fi art done with love. Also: \"I like elephants and God likes elephants.\"",
+  "tags": [
+    "elephant",
+    "16 color",
+    "pixel art",
+    "simple",
+    "minimalism",
+    "art",
+    "god",
+    "terry",
+    "davis",
+    "templeos",
+    "holyc",
+    "programmer"
+  ],
+  "image": "image.png",
+  "width": 2560,
+  "height": 1888,
+  "captionStrip": true,
+  "boxes": [],
+  "source": {
+    "url": "https://x.com/Davisanism/status/1536069730372575232",
+    "author": "@Davisanism",
+    "date": "2022-06-12",
+    "example": "I often see small, low quality JPEGs of Terry Davis' famous TempleOS elephant meme being posted online, so I created a 4x larger PNG version using Terry's original BMP file.\n#Memes\n#TerryADavis"
+  }
+}

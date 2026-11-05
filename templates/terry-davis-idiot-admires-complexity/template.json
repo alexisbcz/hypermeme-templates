@@ -1,0 +1,45 @@
+{
+  "name": "Terry Davis: An Idiot Admires Complexity",
+  "aliases": [
+    "an idiot admires complexity a genius admires simplicity",
+    "idiot admires complexity",
+    "genius admires simplicity",
+    "keep it simple",
+    "clusterfucked",
+    "academic journals",
+    "terry davis",
+    "terry a davis",
+    "templeos",
+    "king terry"
+  ],
+  "description": "Terry Davis speaks over TempleOS screens: \"An idiot admires complexity, a genius admires simplicity... If you make something so clusterfucked he can't understand it, he's going to think you're a god because you made it so complicated nobody can understand it.\"",
+  "usage": "Against overengineering. Reply to microservices for a todo app, jargon-filled papers, or a 40-step setup guide.",
+  "tags": [
+    "simplicity",
+    "complexity",
+    "overengineering",
+    "kiss",
+    "engineering",
+    "quote",
+    "video",
+    "clip",
+    "terry",
+    "davis",
+    "templeos",
+    "holyc",
+    "programmer"
+  ],
+  "image": "image.jpg",
+  "width": 720,
+  "height": 540,
+  "video": "video.mp4",
+  "duration": 34.5,
+  "captionStrip": true,
+  "boxes": [],
+  "source": {
+    "url": "https://x.com/Davisanism/status/1786498929070084311",
+    "author": "@Davisanism",
+    "date": "2024-05-03",
+    "example": "“An idiot admires complexity, a genius admires simplicity.”"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Terry Davis: It's in God's Hands",
+  "aliases": [
+    "you don't have to worry about the world",
+    "it's in god's hands",
+    "no reason to panic over global warming",
+    "he knows what he's doing",
+    "it's under control",
+    "fuck it it ain't our business",
+    "terry davis",
+    "terry a davis",
+    "templeos",
+    "king terry"
+  ],
+  "description": "Terry Davis on a street in a black hoodie: \"There's no reason to panic over global warming. It's part of God's plan... It's under control. Just relax. You don't have to worry about the world. It's in God's hands. Fuck it. He knows what he's doing.\"",
+  "usage": "Letting go of what you can't control: deploy on Friday, let the market do its thing, stop doomscrolling.",
+  "tags": [
+    "relax",
+    "calm",
+    "god",
+    "worry",
+    "control",
+    "faith",
+    "unbothered",
+    "video",
+    "clip",
+    "terry",
+    "davis",
+    "templeos",
+    "holyc",
+    "programmer"
+  ],
+  "image": "image.jpg",
+  "width": 720,
+  "height": 406,
+  "video": "video.mp4",
+  "duration": 23.3,
+  "captionStrip": true,
+  "boxes": [],
+  "source": {
+    "url": "https://x.com/Davisanism/status/1617601126634819584",
+    "author": "@Davisanism",
+    "date": "2023-01-23",
+    "example": "\"You don't have to worry about the world. It's in God's hands.\""
+  }
+}
